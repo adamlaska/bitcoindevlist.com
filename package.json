@@ -42,7 +42,7 @@
     "postcss-cli": "10.0.0",
     "postcss-custom-media": "8.0.2",
     "postcss-custom-properties": "12.1.8",
-    "postcss-nesting": "10.1.10",
+    "postcss-nesting": "10.2.0",
     "pug": "3.0.2"
   }
 }
