@@ -24,6 +24,7 @@ We also support [BOLT12](https://bolt12.org/) (`bolt12_single` and `bolt12_recur
   "name": "Your name",
   "github": "GitHub username",
   "twitter": "Twitter username without @",
+  "nostr": "Nostr URL",
   "mastodon": "Mastodon URL",
   "donate": "Donation URL",
   "avatar": "Avatar URL",
@@ -32,10 +33,7 @@ We also support [BOLT12](https://bolt12.org/) (`bolt12_single` and `bolt12_recur
   "bolt12_single": "BOLT12 for a single offer",
   "bolt12_recurring": "BOLT12 for a recurring offer",
   "lnaddr": "Lightning address",
-  "tags": [
-    "Bitcoin",
-    "Lightning"
-  ]
+  "tags": ["Bitcoin", "Lightning"]
 }
 ```
 

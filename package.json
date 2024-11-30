@@ -25,24 +25,31 @@
     "optimize:styles": "csso dist/index.css --output dist/index.css",
     "sitemap": "node tasks/generate_sitemap.js",
     "rev": "node-file-rev --root=dist dist/img/* dist/index.css dist/index.js",
-    "prod": "npm-run-all build optimize rev build:pages sitemap"
+    "prod": "npm-run-all build optimize rev build:pages sitemap",
+    "prettier": "prettier --write '**/*.{js,json,md}'"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.12",
-    "browser-sync": "2.27.10",
-    "csso-cli": "4.0.1",
-    "glob": "8.0.3",
+    "autoprefixer": "10.4.20",
+    "browser-sync": "3.0.3",
+    "csso-cli": "4.0.2",
+    "glob": "11.0.0",
     "jstransformer-markdown-it": "3.0.0",
-    "markdown-it": "13.0.1",
+    "markdown-it": "14.1.0",
     "node-file-rev": "1.1.4",
     "npm-run-all": "4.1.5",
     "onchange": "7.1.0",
-    "postcss": "8.4.17",
-    "postcss-calc": "8.2.4",
-    "postcss-cli": "10.0.0",
-    "postcss-custom-media": "8.0.2",
-    "postcss-custom-properties": "12.1.9",
-    "postcss-nesting": "10.2.0",
-    "pug": "3.0.2"
+    "postcss": "8.4.49",
+    "postcss-calc": "10.0.2",
+    "postcss-cli": "11.0.0",
+    "postcss-custom-media": "11.0.5",
+    "postcss-nesting": "13.0.1",
+    "prettier": "3.4.1",
+    "pug": "3.0.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "none"
   }
 }
